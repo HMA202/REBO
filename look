@@ -1,0 +1,2 @@
+#!/bin/sh
+find . -path './.git' -prune -o \( -name 'a*' -o -name '*z' -o -name 'z*a!' \) -print
