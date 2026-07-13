@@ -139,7 +139,3 @@
 - [`63_time_to_seconds`](practice-exercises/63_time_to_seconds/README.md)
 - [`64_caesar_cipher`](practice-exercises/64_caesar_cipher/README.md)
 - [`65_tic_tac_toe_winner`](practice-exercises/65_tic_tac_toe_winner/README.md)
-
-## ملاحظة مهمة
-
-ملفات الشرح للتعلم فقط. عند التسليم في Reboot/Piscine استخدم مسار واسم الملف المطلوبين في نص التمرين، ولا ترفع مجلد الشرح بدل ملف التسليم المطلوب.
