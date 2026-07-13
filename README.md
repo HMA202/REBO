@@ -38,5 +38,3 @@ all-go-files-ar/
 
 rotatevowels/main.go
 ```
-
-لذلك لا تغيّر اسم `main.go` ولا تنقل الكود خارج مجلد التمرين عند التسليم.
