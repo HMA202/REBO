@@ -36,42 +36,6 @@ all-go-files-ar/
 | [`flags`](./flags/README.md) | معالجة `--insert` و`--order` و`--help` |
 | [`rotatevowels`](./rotatevowels/README.md) | عكس ترتيب حروف العلة عبر جميع arguments |
 
-## تنسيق الملفات قبل التسليم
-
-نفّذ من جذر المشروع:
-
-```bash
-gofmt -w printprogramname/main.go \
-  printparams/main.go \
-  revparams/main.go \
-  sortparams/main.go \
-  nbrconvertalpha/main.go \
-  flags/main.go \
-  rotatevowels/main.go
-```
-
-ثم افحص وجود newline في نهاية الملفات:
-
-```bash
-for file in printprogramname/main.go printparams/main.go revparams/main.go sortparams/main.go nbrconvertalpha/main.go flags/main.go rotatevowels/main.go; do
-  printf "%s: " "$file"
-  tail -c 1 "$file" | od -An -t u1
-done
-```
-
-يجب أن تكون القيمة الأخيرة لكل ملف:
-
-```text
-10
-```
-
-وهي قيمة newline في ASCII.
-
-## ملاحظة مهمة
-
-ملفات `README.md` للشرح فقط. منصة التقييم عادة تحدد ملف التسليم المطلوب، مثل:
-
-```text
 rotatevowels/main.go
 ```
 
