@@ -37,4 +37,3 @@ all-go-files-ar/
 | [`rotatevowels`](./rotatevowels/README.md) | عكس ترتيب حروف العلة عبر جميع arguments |
 
 rotatevowels/main.go
-```
